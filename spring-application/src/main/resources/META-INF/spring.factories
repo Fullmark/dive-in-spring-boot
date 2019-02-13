@@ -1,0 +1,10 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.fullmark.diveinspringboot.context.HelloWorldApplicationContextInitializer,\
+com.fullmark.diveinspringboot.context.AfterHelloWorldApplicationContextInitializer
+
+org.springframework.context.ApplicationListener=\
+com.fullmark.diveinspringboot.listener.HelloWorldApplicationListener,\
+com.fullmark.diveinspringboot.listener.AfterHelloWorldApplicationListener
+
+org.springframework.boot.SpringApplicationRunListener=\
+com.fullmark.diveinspringboot.run.HelloWorldRunlistener
